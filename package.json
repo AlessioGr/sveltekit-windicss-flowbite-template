@@ -1,6 +1,11 @@
 {
-	"name": "template",
+	"name": "sveltekit-windicss-flowbite-template",
 	"version": "0.0.1",
+	"author": {
+		"name": "Alessio Gravili",
+		"email": "alessio@bonfireleads.com",
+		"url": "http://www.bonfireleads.com"
+	},
 	"private": true,
 	"scripts": {
 		"dev": "vite dev",
