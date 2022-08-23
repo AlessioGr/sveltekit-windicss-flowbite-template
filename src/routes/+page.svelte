@@ -3,6 +3,8 @@
 
 </script>
 
+<h1>Heading 1</h1>
+
 <AccordionItem id="1">
   <h2 slot="header">My Header 1</h2>
   <div slot="body">
