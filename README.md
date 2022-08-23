@@ -1,3 +1,5 @@
+To get started, click the green "Use this template" button on GitHub.
+
 ## Developing
 
 Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
