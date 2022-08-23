@@ -1,12 +1,23 @@
-<script lang="ts">
-  import "virtual:windi.css"
-  import '../app.css';
-  import { browser } from "$app/env";
+<script lang="ts" >
+  import { AccordionItem } from 'flowbite-svelte'
 
-  if (browser){
-    import("virtual:windi-devtools");
-  }
 </script>
 
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<AccordionItem id="1">
+  <h2 slot="header">My Header 1</h2>
+  <div slot="body">
+    <p class="mb-2 text-gray-500 dark:text-gray-400">
+      Lorem ipsum dolor sit amet ...
+    </p>
+    ...
+  </div>
+</AccordionItem>
+<AccordionItem id="2">
+  <h2 slot="header">My Header 2</h2>
+  <div slot="body">
+    <p class="mb-2 text-gray-500 dark:text-gray-400">
+      Lorem ipsum dolor sit amet ...
+    </p>
+    ...
+  </div>
+</AccordionItem>
