@@ -12,7 +12,11 @@ const config = {
     prerender: {
       default: true,
       crawl: true
+    },
+    alias: {
+      '$components': './src/components',
     }
+
   }
 };
 

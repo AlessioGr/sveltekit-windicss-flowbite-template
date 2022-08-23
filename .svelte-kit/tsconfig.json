@@ -1,7 +1,14 @@
 {
 	"compilerOptions": {
 		"baseUrl": "..",
-		"paths": {},
+		"paths": {
+			"$components": [
+				"src/components"
+			],
+			"$components/*": [
+				"src/components/*"
+			]
+		},
 		"rootDirs": [
 			"..",
 			"./types"
