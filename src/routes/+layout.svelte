@@ -1,9 +1,9 @@
 <script lang="ts">
-  import "virtual:windi.css"
-  import '../app.css';
+  import "virtual:windi.css";
+  import "../app.css";
   import { browser } from "$app/env";
 
-  if (browser){
+  if (browser) {
     import("virtual:windi-devtools");
   }
 </script>

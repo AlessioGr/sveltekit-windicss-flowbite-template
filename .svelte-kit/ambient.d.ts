@@ -44,6 +44,7 @@ declare module '$env/static/private' {
 	export const npm_package_devDependencies_tslib: string;
 	export const npm_execpath: string;
 	export const npm_package_devDependencies_svelte: string;
+	export const npm_package_author_name: string;
 	export const _CE_CONDA: string;
 	export const npm_package_devDependencies__typescript_eslint_parser: string;
 	export const npm_package_devDependencies_windicss: string;
@@ -53,6 +54,7 @@ declare module '$env/static/private' {
 	export const __CFBundleIdentifier: string;
 	export const CONDA_PREFIX: string;
 	export const PWD: string;
+	export const npm_package_author_url: string;
 	export const npm_package_scripts_preview: string;
 	export const npm_lifecycle_event: string;
 	export const npm_package_name: string;
@@ -79,6 +81,7 @@ declare module '$env/static/private' {
 	export const npm_package_scripts_format: string;
 	export const npm_lifecycle_script: string;
 	export const LC_CTYPE: string;
+	export const npm_package_author_email: string;
 	export const CONDA_DEFAULT_ENV: string;
 	export const npm_config_user_agent: string;
 	export const HOMEBREW_CELLAR: string;
@@ -86,4 +89,5 @@ declare module '$env/static/private' {
 	export const npm_package_devDependencies__playwright_test: string;
 	export const npm_package_scripts_check: string;
 	export const npm_node_execpath: string;
+	export const NODE_ENV: string;
 }

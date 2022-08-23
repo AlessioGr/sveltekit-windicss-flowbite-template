@@ -1,5 +1,5 @@
-<script lang="ts" >
-  import { AccordionItem } from 'flowbite-svelte'
+<script lang="ts">
+  import { AccordionItem } from "flowbite-svelte";
 
 </script>
 
