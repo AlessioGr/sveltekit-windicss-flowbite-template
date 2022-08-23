@@ -1,10 +1,11 @@
 {
 	"name": "sveltekit-windicss-flowbite-template",
+	"description": "Minimal SvelteKit template with a perfect set-up for WindiCSS and Flowbite",
 	"version": "0.0.1",
 	"author": {
 		"name": "Alessio Gravili",
 		"email": "alessio@bonfireleads.com",
-		"url": "http://www.bonfireleads.com"
+		"url": "https://www.bonfireleads.com"
 	},
 	"private": false,
 	"scripts": {
