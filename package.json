@@ -6,7 +6,7 @@
 		"email": "alessio@bonfireleads.com",
 		"url": "http://www.bonfireleads.com"
 	},
-	"private": true,
+	"private": false,
 	"scripts": {
 		"dev": "vite dev",
 		"build": "vite build",
