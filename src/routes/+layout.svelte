@@ -1,7 +1,7 @@
 <script lang="ts">
   import "virtual:windi.css";
   import "../app.css";
-  import { browser } from "$app/env";
+  import { browser } from "$app/environment";
   import Header from "$components/Header.svelte";
 
   if (browser) {
