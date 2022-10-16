@@ -72,6 +72,7 @@ declare module '$env/static/private' {
 	export const PATH: string;
 	export const TERMINAL_EMULATOR: string;
 	export const npm_package_devDependencies_vite_plugin_windicss: string;
+	export const npm_config_engine_strict: string;
 	export const __CFBundleIdentifier: string;
 	export const CONDA_PREFIX: string;
 	export const PWD: string;
@@ -185,6 +186,7 @@ declare module '$env/dynamic/private' {
 		PATH: string;
 		TERMINAL_EMULATOR: string;
 		npm_package_devDependencies_vite_plugin_windicss: string;
+		npm_config_engine_strict: string;
 		__CFBundleIdentifier: string;
 		CONDA_PREFIX: string;
 		PWD: string;
