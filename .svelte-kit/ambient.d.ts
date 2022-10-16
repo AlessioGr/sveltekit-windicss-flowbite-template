@@ -111,6 +111,7 @@ declare module '$env/static/private' {
 	export const npm_package_devDependencies__playwright_test: string;
 	export const npm_package_scripts_check: string;
 	export const npm_node_execpath: string;
+	export const NODE_ENV: string;
 }
 
 /**
@@ -225,6 +226,7 @@ declare module '$env/dynamic/private' {
 		npm_package_devDependencies__playwright_test: string;
 		npm_package_scripts_check: string;
 		npm_node_execpath: string;
+		NODE_ENV: string;
 		[key: string]: string | undefined;
 	}
 }
